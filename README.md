@@ -1,3 +1,6 @@
+A school project at Medieinstitutet.
+A simple demo for a digital-document website.
+
 ## Frontend:
 
 Created in vanilla js 
