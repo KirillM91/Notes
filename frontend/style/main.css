@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainWrapper {
+    height: 100vh;
+    background-image: url("../assets/beatriz-perez-moya-XN4T2PVUUgk-unsplash.jpg");
+}
+
+.loginWrapper {    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: url("../assets/jess-bailey-q10VITrVYUM-unsplash.jpg");
+}
+
+.userNameInput, .passwordInput {
+    padding-left: 5px;
+    height: 2rem;
+    margin-bottom: 5px;
+}
+
+.cred {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+.documentViewWrapper {    
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: start;
+    gap: 200px;
+    top: 200px;
+    
+}
+
+.notesWrapper {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 200px;      
+}
+
+.newNoteButton {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.documentArea { 
+    position: absolute; 
+    background-color: white; 
+    top: 50px;
+    left: 390px;
+    height: 60vh;    
+    width: 50vw;
+    box-shadow: 0px 2px 5px gray;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.headingName {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.noteName {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    list-style: none;
+    color: rgb(43, 2, 2);
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.editButton, .backButton, .saveButton {
+    position: absolute;
+    bottom: 5px;
+    margin-right: 10px;
+    
+}
+
+button {
+    padding: 5px;
+}
+
+.editButton, .saveButton{
+    right: 10px;
+}
+
+.backButton {
+    left: 10px;
+}
+
+.noteName {
+    width: 100%;
+}
+
+.logOutButton {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
